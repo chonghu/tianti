@@ -21,7 +21,7 @@ window.notImgUrl = window.static + "images/img_null.png";
 window.server = "http://127.0.0.1:8001/";//接口地址项目（tianti-module-interface）部署（以用户自己实际情况来定）
 window.serverPath = window.server + "tianti-module-interface/";
 //后台上传的图片地址
-window.serverUploadPath = "http://127.0.0.1:8002/tianti-module-admin"
+window.serverUploadPath = "http://127.0.0.1:8001/tianti-module-admin"
 
 jc.require.url.push(window.static + "js/jquery.pagination.js");
 jc.require.url.push(window.static + "js/jquery.nicescroll.min.js");
